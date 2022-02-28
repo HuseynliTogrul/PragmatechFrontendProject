@@ -1,0 +1,69 @@
+#demo{
+    height: 657px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Muli,sans-serif;
+}
+.container{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 15px;
+}
+.item:hover{
+    border: 3px solid transparent;
+    transition: all .3s linear;
+    animation: border .4s forwards 1;
+}
+@keyframes border{
+    0%{
+        border-bottom: 3px solid #24cf5f;
+    }
+    33%{
+        border-bottom: 3px solid #24cf5f;
+        border-left: 3px solid #24cf5f;
+    }
+    66%{
+        border-bottom: 3px solid #24cf5f;
+        border-left: 3px solid #24cf5f;
+        border-top: 3px solid #24cf5f;
+    }
+    100%{
+        border-bottom: 3px solid #24cf5f;
+        border-left: 3px solid #24cf5f;
+        border-top: 3px solid #24cf5f;
+        border-right: 3px solid #24cf5f;
+    }
+}
+.item i{
+    font-size: 52px;
+    color: #24cf5f;
+    padding: 25px;
+}
+.item h1{
+    margin: 30px 0;
+    font-family: 'Droid Sans',sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.item p{
+    margin-bottom: 20px;
+    color: #919191;
+    letter-spacing: 0.5px;
+}
+button{
+    margin: 20px;
+    color: white;
+    background-color: #24cf5f;
+    padding: 14px 35px;
+    border: none; 
+    border-radius: 40px;
+}

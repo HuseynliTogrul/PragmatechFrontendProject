@@ -1,0 +1,76 @@
+img {
+    width: 100%;
+}
+
+#geyim {
+    height: 620px;
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    margin: 0 5%;
+}
+
+.urek {
+    position: relative;
+}
+
+.urek i {
+    position: absolute;
+    left: 250px;
+    top: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    background: white;
+    padding: 7px;
+    z-index: 1;
+}
+
+.urek i:hover {
+    background: #ebb5ac;
+    transition: all .5s linear;
+}
+
+.item {
+    margin: 0 10px;
+    position: relative;
+}
+
+
+/* 
+.item:hover {
+    background-image: url(/image/16-327x420.jpg);
+} */
+
+.item h1 {
+    position: absolute;
+    right: 10px;
+    bottom: 80px;
+    background: #f34723;
+    padding: 5px 8px;
+    color: white;
+    font-size: 12px;
+}
+
+.item img {
+    margin-bottom: 10px;
+    height: 370px;
+    object-fit: cover;
+}
+
+.item span {
+    color: #262626;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.item p {
+    font-weight: 600;
+    margin: 10px 0;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+}
