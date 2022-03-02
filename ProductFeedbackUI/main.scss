@@ -12,20 +12,44 @@ body{
         justify-content:space-between;
         padding: 20px;
         .item{
-            width: 200px;
-            height: 100px;
-            border: 1px solid black;
+            height: 120px;
             display: flex;
             flex-direction: column;
             background-color: white;
-            .item-top{
+            .item-top,.item-middle{
                 ul{
                     display: flex;
                     li{
-                        margin: 0 10px;
+                        margin: 5px 5px;
                         font-size: 13px;
+                        background-color: #F2F4FF;
+                        padding: 10px 20px;
+                        border-radius: 10px;
+                        color: #4661E6;
+                        font-weight: 600;
+                        }
                     }
                 }
+            }
+            .item-top{
+                ul{
+                    li{
+                        &:first-child{
+                            background-color: $main-color;
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .item-bottom{
+                margin: 5px 5px;
+                font-size: 13px;
+                background-color: #F2F4FF;
+                padding: 10px 20px;
+                border-radius: 10px;
+                width: 40px;
+                color: $main-color;
+                font-weight: 600;
             }
         }
         .item:first-child{
@@ -36,14 +60,45 @@ body{
             font-size: 20px;
             line-height: 28,9px;
             letter-spacing: -0.25px;
+            width: 200px;
             .item-p{
                 padding: 65px 0;
                 letter-spacing: -0.25px;
+                line-height: 25px;
             }
         }
        }
        .item:nth-child(2){
-            padding: 20px;
+        padding: 20px 10px;
+        margin: 20px 0;
+        border-radius: 10px;
+        width: 220px;
        }
-}
+       .item:last-child{
+            padding: 20px 15px;
+            border-radius: 10px;
+           .road{
+               display: flex;
+               justify-content: space-between;
+               margin-bottom: 20px;
+               p{
+                   font-weight: 600;
+                   font-size: 20px;
+                   color: #3A4374;
+               }
+           }
+           .road-color{
+               display: flex;
+               justify-content: space-between;
+               ul{
+                   li{
+                       margin-bottom: 10px;
+                       color: #647196;
+                       font-weight: 600;
+                   }
+               }
+           }
+       }
+
+
 
