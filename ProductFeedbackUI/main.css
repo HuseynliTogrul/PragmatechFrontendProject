@@ -1,0 +1,61 @@
+body {
+  background: #e3e2e2;
+}
+
+body .container {
+  background: #F7F8FD;
+  width: 1200px;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+body .container .item {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+}
+
+body .container .item .item-top ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .item .item-top ul li {
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+body .container .item:first-child {
+  background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  line-height: 28,9px;
+  letter-spacing: -0.25px;
+}
+
+body .container .item:first-child .item-p {
+  padding: 65px 0;
+  letter-spacing: -0.25px;
+}
+
+body .item:nth-child(2) {
+  padding: 20px;
+}
+/*# sourceMappingURL=main.css.map */
