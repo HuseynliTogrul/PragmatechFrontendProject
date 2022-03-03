@@ -15,7 +15,7 @@ body{
             height: 120px;
             display: flex;
             flex-direction: column;
-            background-color: white;
+            background-color:white;
             .item-top,.item-middle{
                 ul{
                     display: flex;
@@ -51,54 +51,56 @@ body{
                 color: $main-color;
                 font-weight: 600;
             }
-        }
-        .item:first-child{
-            background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
-            border-radius: 10px;
-            padding: 20px;
-            color: white;
-            font-size: 20px;
-            line-height: 28,9px;
-            letter-spacing: -0.25px;
-            width: 200px;
-            .item-p{
-                padding: 65px 0;
+            .item:first-child{
+                background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+                border-radius: 10px;
+                padding: 20px;
+                color: white;
+                font-size: 20px;
+                line-height: 28,9px;
                 letter-spacing: -0.25px;
-                line-height: 25px;
+                width: 200px;
+                .item-p{
+                    padding: 65px 0;
+                    letter-spacing: -0.25px;
+                    line-height: 25px;
+                }
             }
-        }
-       }
-       .item:nth-child(2){
-        padding: 20px 10px;
-        margin: 20px 0;
-        border-radius: 10px;
-        width: 220px;
-       }
-       .item:last-child{
-            padding: 20px 15px;
-            border-radius: 10px;
-           .road{
-               display: flex;
-               justify-content: space-between;
-               margin-bottom: 20px;
-               p{
-                   font-weight: 600;
-                   font-size: 20px;
-                   color: #3A4374;
-               }
-           }
-           .road-color{
-               display: flex;
-               justify-content: space-between;
-               ul{
-                   li{
-                       margin-bottom: 10px;
-                       color: #647196;
+            .item:nth-child(2){
+                padding: 20px 10px;
+                margin: 20px 0;
+                border-radius: 10px;
+                width: 220px;
+            }
+            .item:last-child{
+                padding: 20px 15px;
+                border-radius: 10px;
+               .road{
+                   display: flex;
+                   justify-content: space-between;                       margin-bottom: 20px;
+                    p{
                        font-weight: 600;
+                       font-size: 20px;
+                       color: #3A4374;
                    }
                }
-           }
-       }
+                .road-color{
+                    display: flex;
+                    justify-content: space-between;
+                       ul{
+                           li{
+                               margin-bottom: 10px;
+                               color: #647196;
+                               font-weight: 600;
+                           }
+                       }
+                }
+        }
+        
+    }
+}
+      
 
-
+    
+    
 
