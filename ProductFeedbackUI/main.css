@@ -118,4 +118,25 @@ body .container .item:last-child .road-color ul li {
   color: #647196;
   font-weight: 600;
 }
+
+body .container .container-right .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid red;
+  background-color: #373F68;
+  color: white;
+  border-radius: 10px;
+  padding: 20px 25px;
+  width: 500px;
+}
+
+body .container .container-right .header .header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=main.css.map */
