@@ -126,17 +126,108 @@ body .container .container-right .header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 1px solid red;
   background-color: #373F68;
   color: white;
   border-radius: 10px;
   padding: 20px 25px;
-  width: 500px;
+  width: 660px;
 }
 
 body .container .container-right .header .header-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+}
+
+body .container .container-right .header .header-left .icon {
+  font-size: 11px;
+}
+
+body .container .container-right .header .header-left .suggest {
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+body .container .container-right .header .header-left .sort {
+  font-size: 17px;
+  color: darkgrey;
+}
+
+body .container .container-right .header .header-right {
+  background-color: #C75AF6;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+body .container .container-right ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 0;
+  border-radius: 10px;
+  padding: 15px 20px;
+  background-color: white;
+}
+
+body .container .container-right ul li .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .container-right ul li .number .reqem {
+  background: #e7e9f3;
+  padding: 20px 10px 10px 10px;
+  border-radius: 6px;
+  margin-right: 30px;
+}
+
+body .container .container-right ul li .number .letter h1 {
+  color: #3A4374;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+body .container .container-right ul li .number .letter p {
+  color: #3A4374;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+body .container .container-right ul li .number .letter button {
+  color: #4661E6;
+  border: none;
+  background: #e7e9f3;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+body .container .container-right ul li .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #CDD2EE;
+  font-size: 20px;
+}
+
+body .container .container-right ul li .icon p {
+  color: black;
+  font-weight: 700;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=main.css.map */
