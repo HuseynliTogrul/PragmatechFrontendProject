@@ -1,1 +1,134 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  background: #F2F2F2;
+}
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 50px 42px;
+  border-radius: 10px;
+}
+
+.container header {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3A4374;
+  margin-bottom: 40px;
+}
+
+.container .title {
+  font-size: 14px;
+}
+
+.container .title h1 {
+  font-weight: 700;
+  color: #3A4374;
+  margin-bottom: 8px;
+}
+
+.container .title p {
+  font-weight: 400;
+  color: #647196;
+}
+
+.container .title .icon-text {
+  border: none;
+  background: #F7F8FD;
+  margin: 15px 0;
+  padding: 15px 20px;
+  border-radius: 5px;
+  width: 560px;
+}
+
+.container .category {
+  font-size: 14px;
+}
+
+.container .category h1 {
+  font-weight: 700;
+  color: #3A4374;
+  margin-bottom: 8px;
+}
+
+.container .category p {
+  font-weight: 400;
+  color: #647196;
+}
+
+.container .category .icon {
+  position: relative;
+}
+
+.container .category .icon .icon-text {
+  margin: 15px 0;
+  padding: 15px 20px;
+  background: #F7F8FD;
+  width: 560px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #3A4374;
+  border: none;
+}
+
+.container .category .icon .icon-down {
+  position: absolute;
+  right: 25px;
+  top: 35px;
+  font-size: 15px;
+  color: #4661E6;
+}
+
+.container .detail h1 {
+  font-weight: 700;
+  color: #3A4374;
+  margin-bottom: 8px;
+}
+
+.container .detail p {
+  font-weight: 400;
+  color: #647196;
+}
+
+.container .detail .icon-text {
+  margin: 15px 0;
+  padding: 15px 20px;
+  background: #F7F8FD;
+  width: 560px;
+  height: 96px;
+  border-radius: 5px;
+  border: none;
+}
+
+.container .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.container .buttons button:first-child {
+  background: #3A4374;
+  padding: 15px 25px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.container .buttons button {
+  background: #AD1FEA;
+  padding: 15px 25px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+/*# sourceMappingURL=main.css.map */

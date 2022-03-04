@@ -1,0 +1,116 @@
+$main-color: #3A4374;
+$other-color: #647196;
+
+body{
+    background: #F2F2F2;
+}
+.container{
+    width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 50px 42px;
+    border-radius: 10px;
+    header{
+        font-size: 24px;
+        font-weight: 700;
+        color: $main-color;
+        margin-bottom: 40px;
+    }
+    .title{
+        font-size: 14px;
+        h1{
+            font-weight: 700;
+            color: $main-color;
+            margin-bottom: 8px;
+        }
+        p{
+            font-weight: 400;
+            color: $other-color;
+        }
+        .icon-text{
+            border: none;
+            background: #F7F8FD;
+            margin: 15px 0;
+            padding: 15px 20px;
+            border-radius: 5px;
+            width: 560px
+        }
+    }
+    .category{
+        font-size: 14px;
+        h1{
+            font-weight: 700;
+            color: $main-color;
+            margin-bottom: 8px;
+        }
+        p{
+            font-weight: 400;
+            color: $other-color;
+        }
+        .icon{
+            position: relative;
+            .icon-text{
+                margin: 15px 0;
+                padding: 15px 20px;
+                background: #F7F8FD;
+                width: 560px;
+                border-radius: 5px;
+                font-size: 15px;
+                font-weight: 400;
+                color: #3A4374;
+                border: none;
+            }
+            .icon-down{
+                position: absolute;
+                right: 25px;
+                top: 35px;
+                font-size: 15px;
+                color: #4661E6;
+            }
+        }
+    }
+    .detail{
+        h1{
+            font-weight: 700;
+            color: $main-color;
+            margin-bottom: 8px;
+        }
+        p{
+            font-weight: 400;
+            color: $other-color;
+        }
+        .icon-text{
+            margin: 15px 0;
+            padding: 15px 20px;
+            background: #F7F8FD;
+            width: 560px;
+            height: 96px;
+            border-radius: 5px;
+            border: none;
+        }
+    }
+    .buttons{
+        display: flex;
+        justify-content:flex-end;
+        margin-top: 10px;
+        button:first-child{
+            background: $main-color;
+            padding: 15px 25px;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+        button{
+            background: #AD1FEA;
+            padding: 15px 25px;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            margin-left: 10px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+}
