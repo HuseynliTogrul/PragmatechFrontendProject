@@ -1,0 +1,270 @@
+body {
+  background: #F2F2F2;
+}
+
+.container {
+  width: 540px;
+  margin: 50px auto;
+  background: white;
+  padding: 10px 42px;
+  padding-bottom: 24px;
+  border-radius: 10px;
+}
+
+.container .position {
+  background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 37px;
+}
+
+.container .position .icon {
+  font-size: 26px;
+  position: absolute;
+  left: 15px;
+  top: 16px;
+  color: white;
+}
+
+.container header {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3A4374;
+  margin-bottom: 60px;
+}
+
+.container .title {
+  font-size: 14px;
+}
+
+.container .title h1 {
+  font-weight: 700;
+  color: #3A4374;
+  margin-bottom: 8px;
+}
+
+.container .title p {
+  font-weight: 400;
+  color: #647196;
+}
+
+.container .title .icon-text {
+  border: none;
+  background: #F7F8FD;
+  margin: 15px 0;
+  padding: 15px 20px;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.container .title .icon-text::-webkit-input-placeholder {
+  color: #3A4374;
+}
+
+.container .title .icon-text:-ms-input-placeholder {
+  color: #3A4374;
+}
+
+.container .title .icon-text::-ms-input-placeholder {
+  color: #3A4374;
+}
+
+.container .title .icon-text::placeholder {
+  color: #3A4374;
+}
+
+.container .category {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.container .category h1 {
+  font-weight: 700;
+  color: #3A4374;
+  margin-bottom: 8px;
+}
+
+.container .category p {
+  font-weight: 400;
+  color: #647196;
+}
+
+.container .category .icon {
+  position: relative;
+}
+
+.container .category .icon .icon-text {
+  margin: 15px 0;
+  padding: 15px 20px;
+  background: #F7F8FD;
+  width: 500px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+}
+
+.container .category .icon .icon-text::-webkit-input-placeholder {
+  color: #3A4374;
+}
+
+.container .category .icon .icon-text:-ms-input-placeholder {
+  color: #3A4374;
+}
+
+.container .category .icon .icon-text::-ms-input-placeholder {
+  color: #3A4374;
+}
+
+.container .category .icon .icon-text::placeholder {
+  color: #3A4374;
+}
+
+.container .category .icon .icon-down {
+  position: absolute;
+  right: 25px;
+  top: 35px;
+  font-size: 15px;
+  color: #4661E6;
+}
+
+.container .status {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.container .status h1 {
+  font-weight: 700;
+  color: #3A4374;
+  margin-bottom: 8px;
+}
+
+.container .status p {
+  font-weight: 400;
+  color: #647196;
+}
+
+.container .status .icon {
+  position: relative;
+}
+
+.container .status .icon .icon-text {
+  margin: 15px 0;
+  padding: 15px 20px;
+  background: #F7F8FD;
+  width: 500px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+}
+
+.container .status .icon .icon-text::-webkit-input-placeholder {
+  color: #3A4374;
+}
+
+.container .status .icon .icon-text:-ms-input-placeholder {
+  color: #3A4374;
+}
+
+.container .status .icon .icon-text::-ms-input-placeholder {
+  color: #3A4374;
+}
+
+.container .status .icon .icon-text::placeholder {
+  color: #3A4374;
+}
+
+.container .status .icon .icon-down {
+  position: absolute;
+  right: 25px;
+  top: 35px;
+  font-size: 15px;
+  color: #4661E6;
+}
+
+.container .detail {
+  font-size: 14px;
+}
+
+.container .detail h1 {
+  font-weight: 700;
+  color: #3A4374;
+  margin-bottom: 8px;
+}
+
+.container .detail p {
+  font-weight: 400;
+  color: #647196;
+}
+
+.container .detail .icon-text {
+  margin: 15px 0;
+  padding: 15px 20px;
+  background: #F7F8FD;
+  width: 500px;
+  height: 80px;
+  border-radius: 5px;
+  border: none;
+}
+
+.container .detail .icon-text::-webkit-input-placeholder {
+  color: #3A4374;
+}
+
+.container .detail .icon-text:-ms-input-placeholder {
+  color: #3A4374;
+}
+
+.container .detail .icon-text::-ms-input-placeholder {
+  color: #3A4374;
+}
+
+.container .detail .icon-text::placeholder {
+  color: #3A4374;
+}
+
+.container .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+  width: 535px;
+}
+
+.container .buttons .button-left button {
+  background: #D73737;
+  padding: 15px 25px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.container .buttons .button-right button:first-child {
+  background: #3A4374;
+  padding: 15px 25px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.container .buttons .button-right button {
+  background: #AD1FEA;
+  padding: 15px 25px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+/*# sourceMappingURL=main.css.map */
