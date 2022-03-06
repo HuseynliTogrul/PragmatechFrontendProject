@@ -1,1 +1,33 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body .container {
+  width: 1200px;
+  margin: 20px auto;
+  background: #373F68;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+body .container h1 {
+  font-size: 24px;
+}
+
+body .container p {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */

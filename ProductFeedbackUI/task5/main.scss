@@ -1,0 +1,31 @@
+$main-color: #3A4374;
+$second-color: #373F68;
+$other-color: #AD1FEA;
+
+
+
+body{
+    .container{
+        width: 1200px;
+        margin: 20px auto;
+        background: $second-color;
+        color: white;
+        display: flex;
+        justify-content:space-between;
+        font-weight: 700;
+        padding: 10px 20px;
+        border-radius:10px;
+        h1{
+            font-size: 24px;
+        }
+        p{
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .elements{
+
+    }
+}
