@@ -10,24 +10,45 @@ body .container {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-weight: 700;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border-radius: 10px;
 }
 
-body .container h1 {
-  font-size: 24px;
-}
-
-body .container p {
-  font-size: 14px;
+body .container .container-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container .container-left .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+}
+
+body .container .container-left .icon p {
+  margin-left: 5px;
+}
+
+body .container .container-left .road {
+  font-size: 20px;
+}
+
+body .container .container-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+body .container .container-right p {
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */

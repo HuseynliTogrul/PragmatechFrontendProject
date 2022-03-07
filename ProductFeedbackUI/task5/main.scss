@@ -13,16 +13,28 @@ body{
         display: flex;
         justify-content:space-between;
         font-weight: 700;
-        padding: 10px 20px;
+        padding: 10px 30px;
         border-radius:10px;
-        h1{
-            font-size: 24px;
-        }
-        p{
-            font-size: 14px;
+        .container-left{
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            .icon{
+                display: flex;
+                font-size: 14px;
+                p{
+                    margin-left: 5px;
+                }
+            }
+            .road{
+                font-size: 20px;
+            }
+        }
+        .container-right{
+            display: flex;
             align-items: center;
+            p{
+                font-size: 14px;
+            }
         }
     }
     .elements{
