@@ -48,11 +48,10 @@ body{
         margin: 0 auto;
         display: flex;
         color: $main-color;
-        .elements-left{
+        .elements-left,.elements-middle,.elements-right{
             display: flex;
             flex-direction: column;
             header{
-                height: 100%;
                 margin: 10px 0;
                 h1{
                     font-size: 18px;
@@ -64,9 +63,9 @@ body{
                     margin-top: 7px;
                 }
             }
-            .item-top{
+            .item-top,.item-bottom{
                 border-top: 4px solid $border-left;
-                height: 100%;
+                // height: 100%;
                 padding: 15px;
                 margin-bottom: 10px;
                 background-color: white;
@@ -119,21 +118,21 @@ body{
                     }
                 }
             }
-            .item-bottom{
-                border-top: 4px solid $border-left;
-                height: 100%;
-                background-color: white;
-            }
+            // .item-bottom{
+            //     border-top: 4px solid $border-left;
+            //     // height: 100%;
+            //     background-color: white;
+            // }
         }
-        .elements-middle{
-            border: 1px solid black;
-            display: flex;
-            flex-direction: column;
-        }
-        .elements-right{
-            border: 1px solid black;
-            display: flex;
-            flex-direction: column;
-        }
+        // .elements-middle{
+        //     border: 1px solid black;
+        //     display: flex;
+        //     flex-direction: column;
+        // }
+        // .elements-right{
+        //     border: 1px solid black;
+        //     display: flex;
+        //     flex-direction: column;
+        // }
     }
 }
