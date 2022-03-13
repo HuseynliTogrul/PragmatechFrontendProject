@@ -123,7 +123,6 @@ body .elements .elements-left .item-top h2, body .elements .elements-left .item-
   font-size: 13px;
   background-color: #F2F4FF;
   padding: 10px 15px;
-  width: 12%;
   border-radius: 10px;
   color: #4661E6;
   font-weight: 600;
@@ -170,6 +169,10 @@ body .elements .elements-left .item-top, body .elements .elements-left .item-bot
   border-radius: 5px;
 }
 
+body .elements .elements-left .item-top h2, body .elements .elements-left .item-bottom h2 {
+  width: 40px;
+}
+
 body .elements .elements-middle .item-top, body .elements .elements-middle .item-middle, body .elements .elements-middle .item-bottom {
   border-top: 4px solid #AD1FEA;
   border-radius: 5px;
@@ -179,12 +182,21 @@ body .elements .elements-middle .item-middle {
   padding-bottom: 30px;
 }
 
-body .elements .elements-right .item-top {
-  border-top: 4px solid #62BCFA;
-  border-radius: 5px;
+body .elements .elements-middle .item-top h2, body .elements .elements-middle .item-middle h2 {
+  width: 40px;
+}
+
+body .elements .elements-middle .item-bottom h2 {
+  width: 20px;
 }
 
 body .elements .elements-right .item-top {
+  border-top: 4px solid #62BCFA;
+  border-radius: 5px;
   padding-bottom: 30px;
+}
+
+body .elements .elements-right .item-top h2 {
+  width: 75px;
 }
 /*# sourceMappingURL=main.css.map */

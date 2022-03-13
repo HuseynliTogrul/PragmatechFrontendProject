@@ -87,7 +87,7 @@ body{
                     font-size: 13px;
                     background-color: #F2F4FF;
                     padding: 10px 15px;
-                    width: 12%;
+                    // width: 12%;
                     border-radius: 10px;
                     color: #4661E6;
                     font-weight: 600;
@@ -122,8 +122,10 @@ body{
         .elements-left{
             .item-top,.item-bottom{
                 border-top: 4px solid $border-left;
-
                 border-radius: 5px;
+                h2{
+                    width: 40px;
+                }
             }
         }
         .elements-middle{
@@ -134,14 +136,25 @@ body{
             .item-middle{
                 padding-bottom: 30px;
             }
+            .item-top,.item-middle{
+                h2{
+                    width: 40px;
+                }
+            }
+            .item-bottom{
+                h2{
+                    width: 20px;
+                }
+            }
         }
         .elements-right{
             .item-top{
                 border-top: 4px solid $border-right;
                 border-radius: 5px;
-            }
-            .item-top{
                 padding-bottom: 30px;
+                h2{
+                    width: 75px;
+                }
             }
         }
     }
