@@ -7,6 +7,7 @@ $border-right: #62BCFA;
 
 body{
     background: #F7F8FD;
+    font-family: 'Jost', sans-serif;
     .container{ 
         width: 1200px;
         margin: 20px auto;
@@ -51,6 +52,7 @@ body{
         .elements-left,.elements-middle,.elements-right{
             display: flex;
             flex-direction: column;
+            margin: 0 10px;
             header{
                 margin: 10px 0;
                 h1{
@@ -63,14 +65,12 @@ body{
                     margin-top: 7px;
                 }
             }
-            .item-top,.item-bottom{
-                border-top: 4px solid $border-left;
-                // height: 100%;
+            .item-top,.item-bottom,.item-middle{
                 padding: 15px;
                 margin-bottom: 10px;
                 background-color: white;
                 width: 360px;
-                margin: 20px 0;
+                margin: 15px 0;
                 h1{
                     font-size: 16px;
                 }
@@ -83,7 +83,7 @@ body{
                     font-size: 16px;
                 }
                 h2{
-                    margin: 7px 0;
+                    margin: 10px 0;
                     font-size: 13px;
                     background-color: #F2F4FF;
                     padding: 10px 15px;
@@ -118,21 +118,31 @@ body{
                     }
                 }
             }
-            // .item-bottom{
-            //     border-top: 4px solid $border-left;
-            //     // height: 100%;
-            //     background-color: white;
-            // }
         }
-        // .elements-middle{
-        //     border: 1px solid black;
-        //     display: flex;
-        //     flex-direction: column;
-        // }
-        // .elements-right{
-        //     border: 1px solid black;
-        //     display: flex;
-        //     flex-direction: column;
-        // }
+        .elements-left{
+            .item-top,.item-bottom{
+                border-top: 4px solid $border-left;
+
+                border-radius: 5px;
+            }
+        }
+        .elements-middle{
+            .item-top,.item-middle,.item-bottom{
+                border-top: 4px solid $border-middle;
+                border-radius: 5px;
+            }
+            .item-middle{
+                padding-bottom: 30px;
+            }
+        }
+        .elements-right{
+            .item-top{
+                border-top: 4px solid $border-right;
+                border-radius: 5px;
+            }
+            .item-top{
+                padding-bottom: 30px;
+            }
+        }
     }
 }
