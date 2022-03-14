@@ -1,9 +1,14 @@
-.container{
+.ATB{
+    display: flex;
+    justify-content:space-between;
+    width: 1000px;
+    margin: 50px auto;
+}
+.container,.navbar{
     background-color: rgb(241 204 30);
     display: inline-block;
-    margin: 50px;
-    height: 190px;
-    width: 330px;
+    height: 200px;
+    width: 350px;
     border-radius: 10px;
     position: relative;
     font-family: sans-serif;
@@ -37,10 +42,85 @@
 .card{
     position: absolute;
     right: 15px;
-    top: 110px;
-    font-size: 50px;
+    top: 120px;
+    font-size: 55px;
     margin-top: 15px;
 }
 .card i{
     color: #bf3131;
+}
+
+.card-bottom{
+    padding: 0 15px;
+}
+.card-top{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px 15px;
+    margin: 15px 0;
+    font-size: 15px
+}
+.card-top i:first-child{
+    margin-right: 5px;
+}
+.nav{
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+.social{
+    margin: 0 5px 0 10px;
+    font-size: 12px;
+}
+
+.number{
+    margin-left: 5px;
+    font-size: 12px;
+}
+.qr-cod{
+    display: flex;
+}
+.qr-cod i{
+    font-size: 30px;
+}
+.qr-cod p{
+    font-size: 10px;
+    margin: 0 20px 0 10px;
+    align-items: center;
+    display: flex;
+}
+.qr-cod span{
+    display: flex;
+    align-items: center;
+}
+.qr-cod span:last-child{
+    margin-left: 5px;
+    border: 1px dashed black;
+    padding: 5px;
+}
+.card-nav{
+    display: flex;
+    margin: 10px 0;
+    justify-content:space-between;
+}
+.date{
+    margin: 7px 0;
+}
+.date{
+    display: flex;
+    justify-content:space-between;
+}
+.date span{
+    margin-right: 10px;
+}
+.icon{
+    align-items: center;
+    display: flex;
+}
+.icon i{
+    font-size: 35px;
+    color: #978a8a;
+}
+.icon i:last-child{
+    margin-left: -15px;
 }
