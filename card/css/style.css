@@ -1,9 +1,9 @@
 .container{
-    background-color: rgb(245, 202, 1);
+    background-color: rgb(241 204 30);
     display: inline-block;
     margin: 50px;
-    height: 170px;
-    width: 320px;
+    height: 190px;
+    width: 330px;
     border-radius: 10px;
     position: relative;
     font-family: sans-serif;
@@ -11,11 +11,12 @@
 .bank{
     display: flex;
     justify-content:space-between;
-    padding: 10px 15px;
+    padding: 15px;
     font-size: 20px;
 }
 .bank i{
     color: white;
+    transform: rotate(90deg);
 }
 .chip{
     display: flex;
@@ -26,14 +27,20 @@
     color: white;
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 .chip i{
-    margin-left: 20px;
-    font-size: 25px;
+    margin-left: 25px;
+    font-size: 30px;
+    color: #5a4f4f;
 }
 .card{
     position: absolute;
     right: 15px;
-    top: 115px;
-    font-size: 40px;
+    top: 110px;
+    font-size: 50px;
+    margin-top: 15px;
+}
+.card i{
+    color: #bf3131;
 }
