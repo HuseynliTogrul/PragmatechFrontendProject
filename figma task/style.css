@@ -1,0 +1,95 @@
+.container{
+    width: 1100px;
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+.image{
+    margin-bottom: 60px;
+}
+img{
+    width: 90px;
+}
+.icons{
+    display: flex;
+}
+.global,.clock,.calendar{
+    display: flex;
+    font-size: 20px;
+}
+.global i,.clock i,.calendar i{
+    align-items: center;
+    display: flex;
+    margin-right: 5px;
+}
+.global p,.clock p,.calendar p{
+    margin-right: 30px;
+    font-weight: 400;
+}
+.foto{
+    display: flex;
+    justify-content: space-between;
+}
+.text h1{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 30px 0 15px 0;
+}
+.text p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.foto img{
+    width: 304px;
+    height: 356px;
+    margin-bottom: 25px;
+}
+.navbar{
+    background-color: #1E4681;
+    color: white;
+    margin: 0 auto;
+    width: 315px;
+    height: 130px;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+.navbar p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+.navbar span{
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.second-container{
+    width: 1100px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.second-container h1{
+    font-weight: 700;
+    font-size: 55px;
+    margin: 80px 0 40px 0;
+}
+.metn{
+    display: flex;
+    justify-content: space-between;
+}
+.metn p{
+    width: 650px;
+    height: 374px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.metn img{
+    width: 314px;
+    height: 315px;
+}
