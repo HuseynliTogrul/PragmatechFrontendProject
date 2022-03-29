@@ -9,3 +9,6 @@ let students = [names, surnames, ages]
 // Ad: Eli,Soyad:Piriyev,Yas:23
 // Ad: Ehmed,Soyad:Memmedov,Yas:34
 
+for(let i = 0; i < 5;i++){
+    console.log(`Ad: ${names[i]},Soyad: ${surnames[i]},Yas: ${ages[i]}`)
+}
