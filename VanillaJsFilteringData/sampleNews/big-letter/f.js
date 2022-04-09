@@ -2,7 +2,12 @@ let sampleNews=`As software developers, the natural tendency is to start develop
 The obvious answer could be derived from the application’s design. Keeping the system design as clean and scalable as possible is one of the critical things that any professional developer should dedicate their time to. And that’s where SOLID design principles come into play. It helps developers eliminate design smells and build the best designs for a set of features.
 Although the SOLID design principles were first introduced by the famous Computer Scientist Robert C. Martin (a.k.a. Uncle Bob) in his paper in 2000, its acronym was introduced later by Michael Feathers. Uncle Bob is also the author of best-selling books Clean Code, Clean Architecture, Agile Software Development: Principles, Patterns, and Practices.`
 
-function findBigWord(){ 
-    return sampleNews.split('A-Z').length 
-} 
-console.log(findBigWord())
+function showBigLetter() { 
+    let a = sampleNews.match(/[a-zA-Z]+/g).join(""); 
+    for (i = 0; i < a.length; i++) { 
+      if (a[i][0] == a[i][0].toUpperCase()) { 
+         console.log(a[i]) 
+      } 
+    } 
+  } 
+  console.log(showBigLetter())

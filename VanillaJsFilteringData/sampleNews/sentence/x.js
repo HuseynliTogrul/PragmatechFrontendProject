@@ -3,6 +3,6 @@ The obvious answer could be derived from the application’s design. Keeping the
 Although the SOLID design principles were first introduced by the famous Computer Scientist Robert C. Martin (a.k.a. Uncle Bob) in his paper in 2000, its acronym was introduced later by Michael Feathers. Uncle Bob is also the author of best-selling books Clean Code, Clean Architecture, Agile Software Development: Principles, Patterns, and Practices.`
 
 function findSentence(){ 
-    return sampleNews.split('.').length 
+    return sampleNews.split(".").length 
 } 
 console.log(findSentence())
