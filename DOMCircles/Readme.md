@@ -1,4 +1,48 @@
-> Toğrul:
+<!-- ---Question 1: --> 
+
+JavaScript nədir və necə işləyir?
+
+Internet səhifələrin yaradılmasında geniş istifadə olunan proqramlaşdırma dilidir.JavaScript həm müştəri tərəfində, həm də server tərəfində istifadə olunan mətn əsaslı proqramlaşdırma dilidir və veb səhifələri interaktiv etməyə imkan verir.
+
+
+<!-- ---Question 2: --> 
+
+DOM Traversing nədir? Nümunələr ilə izah edin.
+
+Dom Traversing Javascriptdə Html daxilindən elementləri secmək ücün istifadə olunur.
+
+
+<!-- ---Question 3: --> 
+
+DOM Element və DOM Node arasındakı fərq nədir?
+
+
+
+<!-- ---Question 4: --> 
+
+HTML daxilində var olan hər hansı elementi silmək üçün nə etmək lazımdır?
+
+Delete operatorundan istifadə edilir.JavaScript silmə operatoru obyektdən xassəni silir; eyni əmlaka daha çox istinad edilmirsə, o, avtomatik olaraq buraxılır.
+
+
+<!-- ---Question 5: --> 
+
+HTML daxilində olan bir elementi kopyalayaraq başqa bir elementin daxilinə yerləşdirmək üçün nə etmək lazımdır?
+
+    -Select the top most element, you want to copy. (To copy all, select <html>)
+    -Right click.
+    -Select Edit as HTML
+    -New sub-window opens up with the HTML text.
+    -This is your chance. Press CTRL+A/CTRL+C and copy the entire text field to a different window.
+
+
+<!-- ---Question 6: --> 
+
+HTML daxilində olan elementləri seçərkən hansı DOM metodlarından istifadə olunur?
+
+    -objects,property
+
+
 <!-- ---Question 7: --> 
  
 CSS-də vmin və vmax harada istifadə olunur? 
