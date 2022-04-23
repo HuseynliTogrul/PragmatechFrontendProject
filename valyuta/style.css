@@ -1,0 +1,92 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+.header{ 
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 11px; 
+    color: black; 
+    background: #F5F5F6;
+    padding: 20px 100px; 
+} 
+ 
+.image{ 
+    object-fit: cover; 
+    align-items: center; 
+    display: flex; 
+} 
+ 
+.header ul li{ 
+    list-style: none; 
+    margin: 0 15px; 
+    line-height: 13px; 
+    letter-spacing: 0.06em; 
+    color: #959BA4;
+    cursor: pointer;
+} 
+ 
+.header ul{ 
+    display: flex; 
+    align-items: center; 
+} 
+ 
+p{ 
+    display: flex; 
+    align-items: center; 
+    background: #FFFFFF; 
+    padding: 10px; 
+    border-radius: 4px; 
+    font-weight: 500;
+    cursor: pointer;
+} 
+ 
+h1{ 
+    width: 660px; 
+    margin: 80px auto; 
+    display: flex; 
+    justify-content: start; 
+    font-size: 36px; 
+    line-height: 42px; 
+} 
+ 
+.bank-calc{ 
+    width: 1000px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center; 
+    font-weight: 400; 
+    font-size: 15px; 
+    color: #8d8888; 
+ 
+} 
+ 
+.buying-azn{ 
+    margin-right: 100px; 
+} 
+ 
+.buying-azn ul,.selling-azn ul{ 
+    display: flex; 
+    box-sizing: border-box; 
+} 
+ 
+.buying h5,.selling h5{ 
+    margin-bottom: 10px; 
+    color: #9F9F9F;
+} 
+.buying-azn ul li,.selling-azn ul li{ 
+    list-style: none;
+    border: 1px solid #E5E5E5;
+    padding: 10px 20px;
+    color: #C6C6C6;
+    cursor: pointer;
+} 
+ 
+.calc{ 
+    border: 1px solid black; 
+    width: 259px; 
+    height: 102px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
+}
