@@ -21,40 +21,63 @@
             <li>ПУТЕШЕСТВИЯ</li> 
             <li>РАЗВЛЕЧЕНИЯ</li> 
         </ul> 
-        <p >ВОЙТИ</p> 
+        <button class="btn-sign">SIGN IN</button> 
     </div> 
     <h1>Конвертер валют онлайн</h1> 
-     <div class="bank-calc"> 
-        <div class="buying"> 
-            <h5>У меня есть </h5> 
-            <div class="buying-azn"> 
-                <ul> 
-                    <li>RUB</li> 
-                    <li>USD</li> 
-                    <li>EUR</li> 
-                    <li>GBP</li> 
-                </ul> 
-            </div> 
-            <!-- <div class="calc"> 
-                 
-            </div> --> 
-        </div> 
-        <div class="selling"> 
-            <h5>Хочу приобрести</h5> 
-            <div class="selling-azn"> 
-                <ul> 
-                    <li>RUB</li> 
-                    <li>USD</li> 
-                    <li>EUR</li> 
-                    <li>GBP</li> 
-                </ul> 
-            </div> 
-            <!-- <div class="calc"> 
- 
-            </div> --> 
-        </div> 
-     </div> 
- 
+     <form action="" id="myForm">
+        <div class="converter-con  col-12 mt-5">
+            <div class="convertor-block col-sm-6">
+                <p class="curency-info">
+                    У меня есть 
+                </p>
+
+                <div class="btn-group to col-9 mb-4" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="btnbase" id="btnradio1" autocomplete="off" value="RUB"  checked>
+                    <label class="btn" for="btnradio1">RUB</label>
+
+                    <input type="radio" class="btn-check" name="btnbase" id="btnradio2" autocomplete="off" value="USD" >
+                    <label class="btn" for="btnradio2">USD</label>
+
+                    <input type="radio" class="btn-check" name="btnbase" id="btnradio3" autocomplete="off" value="EUR" >
+                    <label class="btn" for="btnradio3">EUR</label>
+
+                    <input type="radio" class="btn-check" name="btnbase" id="btnradio4" autocomplete="off" value="GBP" >
+                    <label class="btn" for="btnradio4">GBP</label>
+                </div>
+
+                <div class="enterAmount col-9 pt-2 mt-4 ps-3">
+                    <input type="text" name="baseInput" id="baseInput" class="fs-1 col-12 inputAmount" autocomplete="off"  value="1">
+                    <p class="currentCurrency mt-5" id="baseCurrency"></p>
+                </div>
+            </div>
+            <div class="convertor-block col-sm-6">
+                <p class="curency-info">
+                    Хочу приобрести
+                </p>
+
+                <div class="btn-group to mb-4 col-9" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="btnTo" id="btnradioTo1" autocomplete="off" value="RUB">
+                    <label class="btn " for="btnradioTo1">RUB</label>
+
+                    <input type="radio" class="btn-check" name="btnTo" id="btnradioTo2" autocomplete="off" value="USD" checked>
+                    <label class="btn" for="btnradioTo2">USD</label>
+
+                    <input type="radio" class="btn-check" name="btnTo" id="btnradioTo3" autocomplete="off" value="EUR">
+                    <label class="btn" for="btnradioTo3">EUR</label>
+
+                    <input type="radio" class="btn-check" name="btnTo" id="btnradioTo4" autocomplete="off" value="GBP">
+                    <label class="btn" for="btnradioTo4">GBP</label>
+                </div>
+
+                <div class="enterAmount col-9 pt-3 mt-4 ps-4">
+                    <input type="text" name="toInput" id="toInput" autocomplete="off" class="fs-1 col-12 inputAmount">
+                    <p class="currentCurrency mt-5" id="toCurrency"></p>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script src="https://unpkg.com/imask"></script>
     <script src="app.js"></script> 
 </body> 
 </html>

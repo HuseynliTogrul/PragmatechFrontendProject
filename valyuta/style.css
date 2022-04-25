@@ -1,12 +1,15 @@
-*{ 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800;900&display=swap");
+
+body{ 
     margin: 0; 
     padding: 0; 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
 } 
+
 .header{ 
     display: flex; 
     justify-content: space-between; 
-    font-size: 11px; 
+    font-size: 15px; 
     color: black; 
     background: #F5F5F6;
     padding: 20px 100px; 
@@ -20,73 +23,124 @@
  
 .header ul li{ 
     list-style: none; 
-    margin: 0 15px; 
+    margin: 0 10px; 
     line-height: 13px; 
     letter-spacing: 0.06em; 
     color: #959BA4;
     cursor: pointer;
 } 
  
+.header ul li:hover{
+    font-weight: 900;
+    transition: all .3s linear;
+}
+
 .header ul{ 
     display: flex; 
     align-items: center; 
 } 
  
-p{ 
+.btn-sign{ 
     display: flex; 
     align-items: center; 
     background: #FFFFFF; 
-    padding: 10px; 
+    padding: 10px 15px; 
     border-radius: 4px; 
     font-weight: 500;
     cursor: pointer;
+    border: none;
 } 
  
-h1{ 
-    width: 660px; 
-    margin: 80px auto; 
-    display: flex; 
-    justify-content: start; 
-    font-size: 36px; 
-    line-height: 42px; 
-} 
- 
-.bank-calc{ 
-    width: 1000px; 
-    margin: 0 auto; 
-    display: flex; 
-    justify-content: center; 
-    font-weight: 400; 
-    font-size: 15px; 
-    color: #8d8888; 
- 
-} 
- 
-.buying-azn{ 
-    margin-right: 100px; 
-} 
- 
-.buying-azn ul,.selling-azn ul{ 
-    display: flex; 
-    box-sizing: border-box; 
-} 
- 
-.buying h5,.selling h5{ 
-    margin-bottom: 10px; 
-    color: #9F9F9F;
-} 
-.buying-azn ul li,.selling-azn ul li{ 
-    list-style: none;
-    border: 1px solid #E5E5E5;
-    padding: 10px 20px;
-    color: #C6C6C6;
-    cursor: pointer;
-} 
- 
-.calc{ 
-    border: 1px solid black; 
-    width: 259px; 
-    height: 102px; 
-    border-radius: 10px; 
-    margin-top: 20px; 
+.btn-sign:hover{
+    background: #833AE0;
+    color: white;
+    transition: all .3s linear;
 }
+
+h1{ 
+    margin: 40px 230px;
+    font-size: 36px;
+    line-height: 42px;
+} 
+
+.enterAmount {
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    height: 170px;
+    padding: 15px 20px;
+}
+
+.enterAmount p{
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.inputAmount {
+    font-weight: 700;
+    outline: none;
+    border: none;
+    font-size: 30px;
+}
+
+.btn-group{
+    margin-bottom: 25px;
+}
+
+.btn{
+    border-radius: px;
+}
+
+.currentCurrency {
+    color: #C6C6C6;
+}
+
+.converter-con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.convertor-block{
+    margin-right: 100px;
+}
+
+.converter-block p{
+    margin-bottom: 10px;
+}
+
+.curency-info {
+    color: #9F9F9F;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.to label {
+    display: inline-block;
+    background-color: #ddd;
+    font-family: Arial;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 35px;
+}
+
+input[type=radio]{
+    display: none;
+}
+
+input[type="radio"]+label {
+    color: #C6C6C6;
+    background-color: #fff;
+    border: 1px solid #C6C6C6;
+}
+
+input[type="radio"]+label:hover {
+    color: #C6C6C6;
+}
+
+input[type="radio"]:checked+label {
+    color: #fff;
+    background-color: #833AE0;
+    box-shadow: none !important;
+}
+
