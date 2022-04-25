@@ -85,9 +85,11 @@ h1{
 .btn-group{
     margin-bottom: 25px;
 }
-
+.btn-check{
+    margin: 0;
+}
 .btn{
-    border-radius: px;
+    border-radius: 4px;
 }
 
 .currentCurrency {
@@ -141,6 +143,4 @@ input[type="radio"]+label:hover {
 input[type="radio"]:checked+label {
     color: #fff;
     background-color: #833AE0;
-    box-shadow: none !important;
 }
-
