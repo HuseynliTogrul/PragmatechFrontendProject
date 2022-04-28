@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="header">Select your favorite movies</h1>
+        <div id="items">
+            <div id="first">
+                <ul>
+                    <li id="item1" onclick="First1()">Avengers</li>
+                    <li id="item2" onclick="First2()">Shutter Island</li>
+                    <li id="item3" onclick="First3()">Kong: Skull Island</li>
+                </ul>
+            </div>
+            <div id="middle">
+                <ul>
+                    <li id="item4" onclick="Middle4()">Grand Budapest Hotel</li>
+                    <li id="item5" onclick="Middle5()">Inception</li>
+                    <li id="item6" onclick="Middle6()">The Shawshank Redemption</li>
+                </ul>
+            </div>
+            <div id="last">
+                <ul>
+                    <li id="item7" onclick="Last7()">Se7en</li>
+                    <li id="item8" onclick="Last8()">The Dark Knight</li>
+                    <li id="item9" onclick="Last9()">Goodfellas</li>
+                    <li id="item0" onclick="Last0()">The Matrix</li>
+                </ul>
+            </div>
+        </div>
+        <div class="select">
+            <input type="text" id="search" value="Add your own movie tags">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
