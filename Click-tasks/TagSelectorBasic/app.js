@@ -1,14 +1,30 @@
-function clickItem(){
-    h1.style.backgroundColor = "blue"
-    items.style.color = "red"
+function First1() {
+    item1.style.backgroundColor = "lightblue";
 }
-
-
-// function clickButton(){
-//     Light.style.color = "rgb(82 79 79)";
-//     Dark.style.color = "white";
-//     container.style.backgroundColor = "#131326";
-//     darkLight.style.backgroundColor = "#080918";
-//     border.style.left = `${80}px`;
-//     border.style.transition = "all .3s linear";
-// }
+function First2() {
+    item2.style.backgroundColor = "lightblue";
+}
+function First3() {
+    item3.style.backgroundColor = "lightblue";
+}
+function Middle4() {
+    item4.style.backgroundColor = "lightblue";
+}
+function Middle5() {
+    item5.style.backgroundColor = "lightblue";
+}
+function Middle6() {
+    item6.style.backgroundColor = "lightblue";
+}
+function Last7() {
+    item7.style.backgroundColor = "lightblue";
+}
+function Last8() {
+    item8.style.backgroundColor = "lightblue";
+}
+function Last9() {
+    item9.style.backgroundColor = "lightblue";
+}
+function Last0() {
+    item0.style.backgroundColor = "lightblue";
+}

@@ -6,31 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Select your favorite movies</h1>
-        <div id="items" onclick="clickItem()">
+    <div id="container">
+        <h1 id="header">Select your favorite movies</h1>
+        <div id="items">
             <div id="first">
                 <ul>
-                    <li id="item">Avengers</li>
-                    <li id="item">Shutter Island</li>
-                    <li id="item">Kong: Skull Island</li>
+                    <li id="item1" onclick="First1()">Avengers</li>
+                    <li id="item2" onclick="First2()">Shutter Island</li>
+                    <li id="item3" onclick="First3()">Kong: Skull Island</li>
                 </ul>
             </div>
             <div id="middle">
                 <ul>
-                    <li id="item">Grand Budapest Hotel</li>
-                    <li id="item">Inception</li>
-                    <li id="item">The Shawshank Redemption</li>
+                    <li id="item4" onclick="Middle4()">Grand Budapest Hotel</li>
+                    <li id="item5" onclick="Middle5()">Inception</li>
+                    <li id="item6" onclick="Middle6()">The Shawshank Redemption</li>
                 </ul>
             </div>
             <div id="last">
                 <ul>
-                    <li id="item">Se7en</li>
-                    <li id="item">The Dark Knight</li>
-                    <li id="item">Goodfellas</li>
-                    <li id="item">The Matrix</li>
+                    <li id="item7" onclick="Last7()">Se7en</li>
+                    <li id="item8" onclick="Last8()">The Dark Knight</li>
+                    <li id="item9" onclick="Last9()">Goodfellas</li>
+                    <li id="item0" onclick="Last0()">The Matrix</li>
                 </ul>
             </div>
         </div>

@@ -5,7 +5,10 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-
+#click{
+    width: 50px;
+    height: 50px;
+}
 body {
     width: 100vw;
     height: 100vh;
@@ -14,7 +17,7 @@ body {
     background-color: lightblue;
 }
 
-.container {
+#container {
     /* border: 1px solid red; */
     width: 600px;
     margin: 0 auto;
