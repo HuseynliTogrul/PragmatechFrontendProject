@@ -2,7 +2,7 @@
 //     Light.style.color = "#212150";
 //     Dark.style.color = "#cbcaca";
 // } 
-
+ 
 
 function clickButton(){
     Light.style.color = "rgb(82 79 79)";
