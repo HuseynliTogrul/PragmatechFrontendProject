@@ -3,7 +3,7 @@ function First1() {
 }
 function First2() {
     item2.style.backgroundColor = "lightblue";
-}
+} 
 function First3() {
     item3.style.backgroundColor = "lightblue";
 }

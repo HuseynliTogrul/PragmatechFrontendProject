@@ -4,7 +4,7 @@ const inpTo = document.querySelector("#toInput");
 
 const baseCurrency = document.querySelector("#baseCurrency");
 const toCurrency = document.querySelector("#toCurrency");
-
+ 
 const alertInfo = document.querySelector('.alert');
 
 const currencyMask = {
@@ -15,7 +15,7 @@ const currencyMask = {
   max: Number.MAX_VALUE,
   padFractionalZeros: false,
   normalizeZeros: true
-};
+}; 
 
 const maskBase = IMask(inpBase, currencyMask);
 const maskTo = IMask(inpTo, currencyMask);
