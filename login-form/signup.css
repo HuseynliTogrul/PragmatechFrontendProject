@@ -37,17 +37,27 @@
 }
 
 .container label {
-    margin-bottom: 5px;
+    margin-bottom: -5px;
     font-weight: 600;
 }
 
 input[type="text"],input[type="password"]{
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 10px 30px;
     border: 1px solid #bbb;
     border-radius: 3px;
     font-size: 14px;
     font-weight: 300;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input i,.input i{
+    position: relative;
+    top: 27px;
+    left: 10px;
+    color: gray;
+    width: 0;
+    cursor: pointer;
 }
 
 .login-button {

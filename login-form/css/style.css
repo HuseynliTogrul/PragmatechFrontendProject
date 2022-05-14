@@ -9,7 +9,7 @@
     width: 300px;
     background-color: rgba(255, 255, 255, 0.13);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 15px rgb(8 7 16 / 30%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     font-family: 'Poppins', sans-serif;
     padding: 30px 40px;
     border-radius: 6px;
@@ -25,33 +25,42 @@
     margin-bottom: 20px;
 }
 
-.input {
+.input01,.input02 {
     display: flex;
     flex-direction: column;
     font-size: 16px;
 }
 
 .container label {
-    margin-bottom: 5px;
+    margin-bottom: -5px;
 }
 
 input[type="text"],
 input[type="password"] {
     margin-bottom: 15px;
-    padding: 10px;
+    padding: 15px 30px;
     border: 1px solid #bbb;
     border-radius: 3px;
     font-size: 14px;
     font-weight: 300;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.passwordEye{
+.input02 i:last-child{
     position: relative;
-    top: -41px;
+    top: -45px;
     left: 265px;
     color: gray;
+    cursor: pointer;
 }
-
+.input01 i,.input02 i{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    color: gray;
+    width: 0;
+    cursor: pointer;
+}
 .remember {
     display: flex;
     justify-content: space-between;
@@ -120,18 +129,18 @@ input[type="checkbox"] {
     background-color: #3b5998;
 }
 
-.signup-link{
+.signup-link {
     display: inline-block;
     font-size: 13px;
     cursor: pointer;
     text-decoration: underline;
 }
 
-.signup-link a{
+.signup-link a {
     color: #e65100;
-} 
+}
 
-.forgot-link a{
+.forgot-link a {
     color: #e65100;
 }
 
@@ -148,6 +157,8 @@ input[type="checkbox"] {
     position: absolute;
     top: -96px;
     left: -107px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
 }
 
 .second-circle {
@@ -156,6 +167,28 @@ input[type="checkbox"] {
     height: 140px;
     background: linear-gradient(to right, #ec5f64, #ee6e73);
     position: absolute;
-    top: 378px;
+    top: 410px;
     left: 269px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

@@ -9,7 +9,7 @@
 .container {
     margin: 100px auto;
     width: 300px;
-    height: 400px;
+    height: 380px;
     background-color: rgba(255, 255, 255, 0.13);
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 15px rgb(8 7 16 / 30%);
@@ -41,11 +41,21 @@
 
 input[type="text"]{
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 15px 30px;
     border: 1px solid #bbb;
     border-radius: 3px;
     font-size: 14px;
     font-weight: 300;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.input i{
+    position: relative;
+    top: 31px;
+    left: 10px;
+    color: gray;
+    width: 0;
+    cursor: pointer;
 }
 
 .login-button {
@@ -95,6 +105,6 @@ input[type="text"]{
     height: 160px;
     background: linear-gradient(to right, #ec5f64, #ee6e73);
     position: absolute;
-    top: 320px;
+    top: 300px;
     left: 260px;
 }
