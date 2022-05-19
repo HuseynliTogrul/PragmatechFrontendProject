@@ -1,0 +1,15 @@
+.container {
+    background-color: rgb(210, 214, 202);
+}
+
+.cardFilm{
+    width: 480px;
+    display: flex;
+    margin: 20px 0;
+    background-color: antiquewhite;
+}
+
+.poster {
+    width: 150px;
+    padding: 2%;
+  }
