@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background: #ADD8E6;
+  background: -webkit-linear-gradient(to left, #A9A9A9, #A9A9A9); 
+  background: linear-gradient(to left, #A9A9A9, #A9A9A9); 
+  overflow: auto;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,59 @@
+.cardFilm {
+  width: 75%;
+  padding: 15px 30px 15px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 20px 0;
+  /* background-color: #A9A9A9; */
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.poster {
+  box-sizing: border-box;
+  width: 60%;
+  padding: 2%;
+  border-radius: 35px;
+  margin-right: 20px;
+}
+
+.movieInfo {
+  font-size: 22px;
+}
+
+.cardFilm h3 {
+  margin: 10px 0;
+  color: #2f3542;
+}
+
+.addBtn {
+  padding: 10px 7px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid #C0C0C0;
+  background: #C0C0C0;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(to right, #C0C0C0, #C0C0C0);
+  background: linear-gradient(to right, #C0C0C0, #C0C0C0);
+}
+
+.addBtn:hover {
+  transition: ease-in-out;
+  background: -webkit-linear-gradient(to left, #C0C0C0, #C0C0C0);
+  background: linear-gradient(to left, #C0C0C0, #C0C0C0);
+}
+
+@media (max-width: 818px) {
+  .cardFilm {
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .poster {
+    width: 200px;
+  }
+}
