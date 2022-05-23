@@ -5,6 +5,7 @@
   border: none;
   outline: none;
   border-radius: 3px;
+  width: 97%;
 }
 
 .btnSave, .link {
@@ -20,7 +21,7 @@
 }
 .btnSave {
   padding: 5px 10px;
-  margin: auto 30%;
+  margin: auto 39%;
 }
 .btnSave:hover {
     cursor: pointer;
