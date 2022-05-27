@@ -6,7 +6,7 @@ import { addFavID } from "../feautures/apiSlice";
 import { addFavListName } from "../feautures/listNameSlice";
 import api from "../api";
 import { Link } from "react-router-dom";
-import { setDisable } from "../feautures/saveToggle"; 
+import { setDisable } from "../feautures/saveToggle";  
 import styles from "./Favourites.module.css";
 
 function Favorites() {
