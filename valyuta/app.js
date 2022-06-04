@@ -6,7 +6,7 @@ const baseCurrency = document.querySelector("#baseCurrency");
 const toCurrency = document.querySelector("#toCurrency");
  
 const alertInfo = document.querySelector('.alert');
-
+ 
 const currencyMask = {
   mask: Number,
   thousandsSeparator: " ",
