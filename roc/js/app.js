@@ -63,8 +63,8 @@ function clickButton(hand){
     userOrder = hand;
 
     
-    userGameIMG.src = `/gaming-portfolio/img/games-are/r-p-s/${userOrder}.png`
-    aiGameIMG.src = `/gaming-portfolio/img/games-are/r-p-s/${aiPlaying}.png`
+    userGameIMG.src = `/img/games-are/r-p-s/${userOrder}.png`
+    aiGameIMG.src = `/img/games-are/r-p-s/${aiPlaying}.png`
     
     
      userWinEpisodes = {
@@ -104,8 +104,8 @@ function startGame(e){
         return ;
     }
     
-    userGameIMG.src = `/gaming-portfolio/img/games-are/r-p-s/${userOrder}.png`
-    aiGameIMG.src = `/gaming-portfolio/img/games-are/r-p-s/${aiPlaying}.png`
+    userGameIMG.src = `/img/games-are/r-p-s/${userOrder}.png`
+    aiGameIMG.src = `/img/games-are/r-p-s/${aiPlaying}.png`
     
     
     userWinEpisodes = {
